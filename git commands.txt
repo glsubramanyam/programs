@@ -1,4 +1,4 @@
-git pull
+git pull -> dont know
 git status
 git add filename.extension
 git add .  
