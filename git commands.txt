@@ -3,6 +3,8 @@ git status
 git add filename.extension
 git add .  
 git commit -m "some_matter"
+git commit -am "some_matter" (skip staging area and direct to repository -> can't use for single file)
+pwd ->to know presdnt working directory
 
 git config --global user.name "ur name"
 git config --global user.email "ur email"
@@ -18,4 +20,16 @@ git rm filename.extension
 git mv file1.extension file2.extension
 git mv file1.extension folder_name/file1.extension (can rename as file2 also)
 
+git reset HEAD filename.extension -> to get back from staging area
 
+git log ->to see status of recent activities
+git checkout auto_generate_code -- filename.extension
+ex : git checkout 01e7dba458725 -- index.html
+git commit -am "back to previous version"
+
+git remote add nickname_of_repository url
+git remote ->to see all remote repositories
+git push -u repository_name master ->to push all files to git
+{
+after if ask user name - enter ur username & password
+}
