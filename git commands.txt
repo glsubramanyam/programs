@@ -33,3 +33,4 @@ git push -u repository_name master ->to push all files to git
 {
 after if ask user name - enter ur username & password
 }
+git remote rm remote-name
